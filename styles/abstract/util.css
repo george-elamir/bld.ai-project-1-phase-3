@@ -1,0 +1,9 @@
+.font-bold {
+  font-weight: 700;
+}
+.btn {
+  height: 4rem;
+  padding: 0 1.3rem;
+  border: 1px solid #1c1d1f;
+  cursor: pointer;
+}

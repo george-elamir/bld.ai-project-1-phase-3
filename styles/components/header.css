@@ -1,0 +1,117 @@
+.home-header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+.header-ad {
+  padding: 1.6rem;
+  background-color: #eceb98;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.header-nav {
+  padding: 10px 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-ham {
+  display: none;
+}
+.nav-logo {
+  width: 91px;
+  height: 34px;
+}
+.nav-link {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.nav-search {
+  flex-grow: 0.5;
+  max-width: none;
+}
+.nav-search input {
+  height: 4.8rem;
+  width: 80%;
+  padding: 10px 2.4rem 10px 10px;
+  border: 1px solid #1c1d1f;
+  border-radius: 1000px;
+}
+.nav-cart {
+  font-size: 1.75rem;
+}
+.search-btn {
+  color: white;
+  background-color: #1c1d1f;
+}
+.login-btn {
+  background-color: white;
+}
+.signup-btn {
+  color: white;
+  background-color: #1c1d1f;
+}
+.lang-btn {
+  background-color: white;
+}
+@media only screen and (max-width: 67em) {
+  .break-67em {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 57em) {
+  .break-57em {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-ham {
+    font-size: 1.75rem;
+    display: block;
+  }
+  .nav-content {
+    display: none;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  background-color: black;
+  padding: 20px;
+}
+.carousel-item{
+  transition: unset !important;
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+
