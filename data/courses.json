@@ -3,6 +3,7 @@
     "courses": [
       {
         "id": 1,
+        "type": "Python",
         "course_title": "Learn Python: The Complete Python Programming Course",
         "author": "George Elamir",
         "price": "E£319.99",
@@ -10,6 +11,7 @@
       },
       {
         "id": 2,
+        "type": "Python",
         "course_title": "Learning Python for Data Analysis and Visualization",
         "author": "John Doe",
         "price": "E£319.99",
@@ -17,6 +19,7 @@
       },
       {
         "id": 3,
+        "type": "Python",
         "course_title": "Python Beyond the Basics - Object-Oriented Programming",
         "author": "Infinte skills",
         "price": "E£269.99",
@@ -24,6 +27,7 @@
       },
       {
         "id": 4,
+        "type": "Python",
         "course_title": "Learning Python for Data Analysis and Visualization",
         "author": "John Doe",
         "price": "E£319.99",
@@ -31,10 +35,35 @@
       },
       {
         "id": 5,
+        "type": "Python",
         "course_title": "Python Beyond the Basics - Object-Oriented Programming",
         "author": "Infinte skills",
         "price": "E£269.99",
         "image": "https://img-c.udemycdn.com/course/240x135/449532_2aa9_7.jpg"
+      },
+      {
+        "id": 6,
+        "type": "Excel",
+        "course_title": "Excel course - 1",
+        "author": "Infinte skills",
+        "price": "E£269.99",
+        "image": "https://img-b.udemycdn.com/course/240x135/31535_e351_7.jpg"
+      },
+      {
+        "id": 7,
+        "type": "Excel",
+        "course_title": "Excel course - 2",
+        "author": "Infinte skills",
+        "price": "E£269.99",
+        "image": "https://img-b.udemycdn.com/course/240x135/39292_b3f3_9.jpg"
+      },
+      {
+        "id": 8,
+        "type": "Excel",
+        "course_title": "Excel course - 3",
+        "author": "Infinte skills",
+        "price": "E£269.99",
+        "image": "https://img-b.udemycdn.com/course/240x135/49250_a658_8.jpg"
       }
     ]
   }
