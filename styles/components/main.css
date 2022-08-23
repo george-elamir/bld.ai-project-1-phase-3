@@ -96,7 +96,10 @@
 .card-price {
   font-size: 1.6rem;
 }
-
+.category-header {
+  max-width: 300px;
+  margin: auto;
+}
 @media only screen and (min-width: 75em) {
   .top-card {
     left: 7rem;
